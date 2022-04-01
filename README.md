@@ -26,7 +26,7 @@ $ yarn preview || npm run preview (this open the application using a local web s
 
 ## Using the app
 When the apps is running go to the URL prompted in your terminal 
-(http://localhost:3000 for dev & http://localhost:4173)
+(http://localhost:3000 for dev mode & http://localhost:4173 for production mode)
 
 
 ## Stay in touch
