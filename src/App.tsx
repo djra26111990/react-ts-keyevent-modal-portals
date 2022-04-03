@@ -1,6 +1,6 @@
-import { ButtonComponent } from "./componentes/Button";
-import { LayOut } from "./componentes/Layout";
-import Modal from "./componentes/Modal";
+import { ButtonComponent } from "./components/Button";
+import { LayOut } from "./components/Layout";
+import Modal from "./components/Modal";
 import { useKeyEventContext } from "./context/keyeventContext";
 
 function App() {
