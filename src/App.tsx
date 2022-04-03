@@ -6,6 +6,8 @@ import { useKeyEventContext } from "./context/keyeventContext";
 function App() {
   const { isOpen, setIsOpen, handleClick } = useKeyEventContext();
 
+  const handleClose = (): void => setIsOpen(false)
+
   return (
     <div>
       <LayOut>
@@ -16,7 +18,7 @@ function App() {
         >
           Abrir Modal [F1] || [F2] || [F3]
         </ButtonComponent>
-        <Modal isOpen={isOpen} handleClose={() => setIsOpen(false)}>
+        <Modal isOpen={isOpen} handleClose={handleClose}>
           Hola soy un modal
         </Modal>
       </LayOut>
